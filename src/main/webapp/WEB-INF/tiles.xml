@@ -1,0 +1,118 @@
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="base.definition"
+		template="/WEB-INF/views/layout.jsp">
+		<put-attribute name="title" value="Inventory System" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/views/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+	<definition name="base.Login.definition"
+		template="/WEB-INF/views/fullLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="body" value="" />
+	</definition>
+
+	<definition name="login" extends="base.Login.definition">
+		<put-attribute name="title" value="Inventory Management" />
+		<put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+	</definition>
+
+	<definition name="startPage" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/startPage.jsp" />
+	</definition>
+	
+	<definition name="dashBoard" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/startPage.jsp" />
+	</definition>
+	
+	<definition name="UserForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/UserForm.jsp" />
+	</definition>
+	
+	<definition name="UserList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/UserList.jsp" />
+	</definition>
+	
+	<definition name="ProjectForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/ProjectForm.jsp" />
+	</definition>
+	
+	
+	<definition name="ProjectList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/ProjectList.jsp" />
+	</definition>
+	
+	<definition name="UserProjectsForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/UserProjectsForm.jsp" />
+	</definition>
+	
+	<definition name="TaskForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TaskForm.jsp" />
+	</definition>
+	
+	<definition name="TaskMstList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TaskMstList.jsp" />
+	</definition>
+	
+	<definition name="TaskDETForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TaskDETForm.jsp" />
+	</definition>
+	
+	<definition name="TaskStatusView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TaskStatusView.jsp" />
+	</definition>
+	
+	<definition name="TaskDETViewList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TaskDETViewList.jsp" />
+	</definition>
+	
+	<definition name="InventoryMstForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/InventoryMstForm.jsp" />
+	</definition>
+	
+	<definition name="InventoryMstList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/InventoryMstList.jsp" />
+	</definition>
+	
+	<definition name="InventoryDetForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/InventoryDetForm.jsp" />
+	</definition>
+	
+	<definition name="InventoryDetList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/InventoryDetList.jsp" />
+	</definition>
+	
+	<definition name="TrainingMSTForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TrainingMSTForm.jsp" />
+	</definition>
+	
+	<definition name="TrainingMSTList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TrainingMSTList.jsp" />
+	</definition>
+	
+	<definition name="TrainingQuestionForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TrainingQuestionForm.jsp" />
+	</definition>
+	
+	<definition name="TrainingQuestionList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TrainingQuestionList.jsp" />
+	</definition>
+	
+	<definition name="TrainingDETForm" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TrainingDETForm.jsp" />
+	</definition>
+	
+	<definition name="TrainingDETList" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TrainingDETList.jsp" />
+	</definition>
+	
+	<definition name="TrainingQuestionTest" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/views/TrainingQuestionTest.jsp" />
+	</definition>
+	
+
+</tiles-definitions>
