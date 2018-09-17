@@ -1,4 +1,4 @@
-# inventorySystem
+# Inventory Management System
 
 The main idea behind this web-based project is that in today’s rapid development world, businesses are growing exponentially so the effective and fruitful management of business is essential. This system helps in managing new individual ventures relying upon the prerequisites and furthermore keeps up the data of the running activities to track the status and to set the task objectives.
 
